@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traccia Guadagni e Perdite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Traccia Guadagni e Perdite</h1>
+        <form id="dataForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+            <label for="amount">Importo:</label>
+            <input type="number" id="amount" required>
+            <label for="type">Tipo (Guadagno o Perdita):</label>
+            <select id="type">
+                <option value="guadagno">Guadagno</option>
+                <option value="perdita">Perdita</option>
+            </select>
+            <button type="submit">Aggiungi</button>
+        </form>
+        <!-- Aggiungi questo pulsante per eliminare tutti gli elementi -->
+<button id="deleteAllBtn">Elimina Tutto</button>
+        <div id="dataList"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

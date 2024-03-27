@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@npmcli/fs": "^3.1.0",
+    "@npmcli/package-json": "^5.0.0",
+    "mongodb": "^6.5.0",
+    "uuid": "^9.0.1"
+  }
+}
